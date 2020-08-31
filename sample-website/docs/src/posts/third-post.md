@@ -6,6 +6,8 @@ tags:
 ---
 
 
+{{ $pagination }}
+
 # Third Post
 
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, quas. Ipsam odio vel eius. Alias exercitationem inventore, vel quibusdam placeat ut consectetur temporibus a debitis ad laudantium iure id obcaecati.

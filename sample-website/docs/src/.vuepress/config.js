@@ -11,6 +11,7 @@ module.exports = {
   base: '/vuepress-default-theme-template/',            // gh pages
   title: name,
   description: description,
+  // TODO: could add SEO and seperate out like navigation menu
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -25,8 +26,7 @@ module.exports = {
   // vuepress dev docs --no-cache
   cache: true,
   extraWatchFiles: [
-    '.vuepress/foo.js', // Relative path usage
-    '/path/to/bar.js'   // Absolute path usage
+    '.vuepress/en-navigation.js',
   ],
   /**
    * ANCHOR add external theme
@@ -62,11 +62,7 @@ module.exports = {
     displayAllHeaders: true,
     activeHeaderLinks: true,
     // navbar: false,
-    nav: [
-      { text: 'Guide', link: '/guide/', },
-      { text: 'Config', link: '/config/' },
-      { text: 'Posts', link: '/posts/' },
-    ],
+    nav: require('./en-navigation'),
     // ANCHOR search box setting
     search: true,
     searchMaxSuggestions: 10,
@@ -101,6 +97,7 @@ module.exports = {
       'markdown-it-deflist',
       'markdown-it-imsize',
       'markdown-it-emoji',
+      'markdown-it-video',
       'markdown-it-todo',
       'markdown-it-abbr',
       'markdown-it-mark',
@@ -160,15 +157,27 @@ module.exports = {
         after: '</div>',
     }],
 
-    // ANCHOR blog plugin
+    /**
+     * ANCHOR blog plugin
+     * adds new routes, still difficult to play with
+     */
     ['@vuepress/blog', {
       directories: [{
         id: 'post',                     // Unique ID of current classification
         dirname: 'posts',               // Target directory
-        layout: 'MyIndexPost',
-        itemLayout: 'MyPost',
         path: '/post/',                 // Path of the `entry page` (or `list page`)
-        itemPermalink: '/post/:year/:month/:day/:slug',
+        // path: '/',
+        // itemPermalink: '/post/:year/:month/:day/:slug',
+        /**
+         * FIXME layout doesnt seems to have any effect
+         * has to be inside .vuepress/theme/layouts/IndexPost.vue
+         */
+        layout: 'IndexPost',
+        // itemLayout: 'MyPost',
+        /**
+         * TODO pagination
+         * layout:"Layout"
+         */
         pagination: { lengthPerPage: 2, },
       },
       ],
@@ -176,8 +185,12 @@ module.exports = {
         id: 'tag',         // Unique ID of current classification
         keys: ['tag'],     // Decide that the frontmatter keys will be grouped under this classification
         path: '/tag/',     // Path of the `entry page` (or `list page`)
-        layout: 'Tags',    // Layout of the `entry page`
-        scopeLayout: 'Tag' // Layout of the `scope page`
+        /**
+         * FIXME uses layout:"FrontmatterKey"
+         * $pagination: "(error during evaluation)"
+         */
+        // layout: 'Tags',    // Layout of the `entry page`
+        // scopeLayout: 'Tag' // Layout of the `scope page`
       }],
       sitemap: { hostname: url },
       comment: {
