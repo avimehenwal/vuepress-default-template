@@ -4,7 +4,7 @@
         <title>sample-website</title>
         <link>http://yoursite</link>
         <description>sample vuepress website theme based on default theme</description>
-        <lastBuildDate>Mon, 31 Aug 2020 15:16:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 31 Aug 2020 15:25:38 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="http://yoursite/feed.atom" rel="self" type="application/rss+xml"/>
@@ -12,20 +12,20 @@
             <title><![CDATA[Third Post]]></title>
             <link>http://yoursite/post/1970/01/01/third-post/</link>
             <guid>http://yoursite/post/1970/01/01/third-post/</guid>
-            <pubDate>Mon, 31 Aug 2020 15:16:09 GMT</pubDate>
+            <pubDate>Mon, 31 Aug 2020 15:25:38 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, quas. Ipsam odio vel eius. Alias exercitationem inventore, vel quibusdam placeat ut consectetur temporibus a debitis ad laudantium iure id obcaecati.]]></description>
         </item>
         <item>
             <link>http://yoursite/post/1970/01/01/this-is-first-post/</link>
             <guid>http://yoursite/post/1970/01/01/this-is-first-post/</guid>
-            <pubDate>Mon, 31 Aug 2020 15:16:09 GMT</pubDate>
+            <pubDate>Mon, 31 Aug 2020 15:25:38 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tempora mollitia architecto aut veritatis cumque? Hic sapiente commodi, doloribus nesciunt praesentium quis eius quod, et, cupiditate voluptate vitae iusto sequi.]]></description>
         </item>
         <item>
             <title><![CDATA[Second Post]]></title>
             <link>http://yoursite/post/1970/01/01/this-is-second-post/</link>
             <guid>http://yoursite/post/1970/01/01/this-is-second-post/</guid>
-            <pubDate>Mon, 31 Aug 2020 15:16:09 GMT</pubDate>
+            <pubDate>Mon, 31 Aug 2020 15:25:38 GMT</pubDate>
         </item>
     </channel>
 </rss>

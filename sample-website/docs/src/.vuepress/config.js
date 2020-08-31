@@ -4,7 +4,7 @@ module.exports = {
   /**
    * ANCHOR vuepress config * https://vuepress.vuejs.org/config/
    */
-  base: null,
+  base: '/vuepress-default-theme-template/',            // gh pages
   title: name,
   description: description,
   head: [

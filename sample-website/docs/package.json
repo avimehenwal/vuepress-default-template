@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "vuepress dev src",
     "debug": "yarn run dev --debug",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "serve": "yarn build && http-server ../../docs"
   },
   "license": "MIT",
   "devDependencies": {
@@ -24,6 +25,7 @@
     "@vuepress/plugin-pwa": "^1.5.4",
     "@vuepress/plugin-register-components": "^1.5.4",
     "@vuepress/plugin-search": "^1.5.4",
+    "http-server": "^0.12.3",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-container": "^3.0.0",
     "markdown-it-deflist": "^2.0.3",
