@@ -10,6 +10,7 @@
   "repository": "avimehenwal/sample-website",
   "scripts": {
     "dev": "vuepress dev src",
+    "debug": "yarn run dev --debug",
     "build": "vuepress build src"
   },
   "license": "MIT",

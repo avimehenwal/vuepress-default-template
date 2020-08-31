@@ -15,7 +15,7 @@ module.exports = {
   host: '0.0.0.0',
   port: '8080',
   // temp: '/path/to/@vuepress/core/.temp',
-  dest: '.vuepress/dist',
+  dest: '../../docs',                          // github pages
   locales: null,
   shouldPrefetch: () => true,
   // vuepress dev docs --no-cache
@@ -30,8 +30,7 @@ module.exports = {
   theme: undefined,
   themeConfig: {},
   // .vuepress/theme/index.js
-  extend: '@vuepress/theme-default',
-
+  // extend: '@vuepress/theme-default',
 
 
   /**
@@ -39,7 +38,7 @@ module.exports = {
    * https://vuepress.vuejs.org/theme/default-theme-config.html#default-theme-config
    */
   themeConfig: {
-    logo: '/assets/img/logo.png',                       // navbar logo
+    logo: '/am.svg',                       // navbar logo
     lastUpdated: true,                                  // string | boolean
     nextLinks: true,
     prevLinks: true,

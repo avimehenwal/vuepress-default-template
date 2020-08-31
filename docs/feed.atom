@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://yoursite</id>
+    <title>sample-website</title>
+    <updated>2020-08-31T15:16:09.176Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="http://yoursite"/>
+    <link rel="self" href="http://yoursite/feed.atom"/>
+    <subtitle>sample vuepress website theme based on default theme</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Third Post]]></title>
+        <id>http://yoursite/post/1970/01/01/third-post/</id>
+        <link href="http://yoursite/post/1970/01/01/third-post/">
+        </link>
+        <updated>2020-08-31T15:16:09.172Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, quas. Ipsam odio vel eius. Alias exercitationem inventore, vel quibusdam placeat ut consectetur temporibus a debitis ad laudantium iure id obcaecati.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"/>
+        <id>http://yoursite/post/1970/01/01/this-is-first-post/</id>
+        <link href="http://yoursite/post/1970/01/01/this-is-first-post/">
+        </link>
+        <updated>2020-08-31T15:16:09.173Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tempora mollitia architecto aut veritatis cumque? Hic sapiente commodi, doloribus nesciunt praesentium quis eius quod, et, cupiditate voluptate vitae iusto sequi.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Second Post]]></title>
+        <id>http://yoursite/post/1970/01/01/this-is-second-post/</id>
+        <link href="http://yoursite/post/1970/01/01/this-is-second-post/">
+        </link>
+        <updated>2020-08-31T15:16:09.173Z</updated>
+    </entry>
+</feed>

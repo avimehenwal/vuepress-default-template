@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "sample-website",
+    "home_page_url": "http://yoursite",
+    "feed_url": "http://yoursite/feed.json",
+    "description": "sample vuepress website theme based on default theme",
+    "items": [
+        {
+            "id": "http://yoursite/post/1970/01/01/third-post/",
+            "url": "http://yoursite/post/1970/01/01/third-post/",
+            "title": "Third Post",
+            "summary": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, quas. Ipsam odio vel eius. Alias exercitationem inventore, vel quibusdam placeat ut consectetur temporibus a debitis ad laudantium iure id obcaecati.",
+            "date_modified": "2020-08-31T15:16:09.172Z"
+        },
+        {
+            "id": "http://yoursite/post/1970/01/01/this-is-first-post/",
+            "url": "http://yoursite/post/1970/01/01/this-is-first-post/",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tempora mollitia architecto aut veritatis cumque? Hic sapiente commodi, doloribus nesciunt praesentium quis eius quod, et, cupiditate voluptate vitae iusto sequi.",
+            "date_modified": "2020-08-31T15:16:09.173Z"
+        },
+        {
+            "id": "http://yoursite/post/1970/01/01/this-is-second-post/",
+            "url": "http://yoursite/post/1970/01/01/this-is-second-post/",
+            "title": "Second Post",
+            "date_modified": "2020-08-31T15:16:09.173Z"
+        }
+    ]
+}
