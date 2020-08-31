@@ -1,8 +1,4 @@
 const { description, name } = require('../../package')
-/**
- * used in sitmap and feeds
- */
-const url = 'https://avimehenwal.github.io/vuepress-default-theme-template/'
 
 module.exports = {
   /**
@@ -157,55 +153,8 @@ module.exports = {
         after: '</div>',
     }],
 
-    /**
-     * ANCHOR blog plugin
-     * adds new routes, still difficult to play with
-     */
-    ['@vuepress/blog', {
-      directories: [{
-        id: 'post',                     // Unique ID of current classification
-        dirname: 'posts',               // Target directory
-        path: '/post/',                 // Path of the `entry page` (or `list page`)
-        // path: '/',
-        // itemPermalink: '/post/:year/:month/:day/:slug',
-        /**
-         * FIXME layout doesnt seems to have any effect
-         * has to be inside .vuepress/theme/layouts/IndexPost.vue
-         */
-        layout: 'IndexPost',
-        // itemLayout: 'MyPost',
-        /**
-         * TODO pagination
-         * layout:"Layout"
-         */
-        pagination: { lengthPerPage: 2, },
-      },
-      ],
-      frontmatters: [{
-        id: 'tag',         // Unique ID of current classification
-        keys: ['tag'],     // Decide that the frontmatter keys will be grouped under this classification
-        path: '/tag/',     // Path of the `entry page` (or `list page`)
-        /**
-         * FIXME uses layout:"FrontmatterKey"
-         * $pagination: "(error during evaluation)"
-         */
-        // layout: 'Tags',    // Layout of the `entry page`
-        // scopeLayout: 'Tag' // Layout of the `scope page`
-      }],
-      sitemap: { hostname: url },
-      comment: {
-        // service: 'vssue',    // vssue | disqus
-        // owner: 'You',        // The owner's name of repository to store the issues and comments.
-        // repo: 'Your repo',
-        // clientId: 'Your clientId',
-        // clientSecret: 'Your clientSecret',
-        service: 'disqus',
-        shortname: 'vuepress-plugin-blog',
-      },
-      // mailchimp
-      newsletter: { endpoint: "http://eepurl.com/dlqpQX" },
-      feed: { canonical_base: url },
-    }],
+    // https://github.com/drand/website/tree/master/docs/.vuepress
+    ['@vuepress/blog', require('./pluginBlog') ],
   ],
 }
 
