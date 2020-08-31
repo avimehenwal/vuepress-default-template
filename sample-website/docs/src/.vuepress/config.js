@@ -1,4 +1,8 @@
 const { description, name } = require('../../package')
+/**
+ * used in sitmap and feeds
+ */
+const url = 'https://avimehenwal.github.io/vuepress-default-theme-template/'
 
 module.exports = {
   /**
@@ -61,35 +65,20 @@ module.exports = {
     nav: [
       { text: 'Guide', link: '/guide/', },
       { text: 'Config', link: '/config/' },
-      { text: 'VuePress', link: 'https://v1.vuepress.vuejs.org' }
+      { text: 'Posts', link: '/posts/' },
     ],
     // ANCHOR search box setting
-    search: false,
+    search: true,
     searchMaxSuggestions: 10,
     searchPlaceholder: 'Search...',
 
     // ANCHOR sidebar settings
     sidebar: 'auto',
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide', collapsable: true,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-      '/config/': [
-        {
-          title: 'Config', collapsable: true,
-          children: [
-            '',
-            'someconfig',
-          ]
-        }
-      ],
-    }
+    // STUB manually set sidebar
+    // sidebar: {
+    //   '/guide/': [ { title: 'Guide', collapsable: true, children: [ '', 'using-vue', ] } ],
+    //   '/config/': [ { title: 'Config', collapsable: true, children: [ '', 'someconfig', ] } ],
+    // }
   },
 
   markdown: {
@@ -126,31 +115,56 @@ module.exports = {
    * ANCHOR Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
+    ['social-share'],
+    ['reading-progress'],               // readingShow: false in frontmatter
+    ['@vuepress/nprogress'],
+    ['@vuepress/back-to-top'],
     ['@vuepress/last-updated'],
+    ['vuepress-plugin-auto-sidebar', {}],
+    ['@vuepress/register-components', { componentsDir: '' }],
     // See: https://github.com/francoischalifour/medium-zoom#options
+    ['@vuepress/google-analytics', { 'ga': 'UA-iosadfiosdi' }],
+    ['@vuepress/pwa', { serviceWorker: true, updatePopup: true }],
+    ['web-monetization', { 'address': '$ilp.uphold.com/DrRw6MnEEqBB' }],
+    ['vuepress-plugin-reading-time', { excludes: ['/about', '/tag/.*'] }],
+    ['vuepress-plugin-mathjax', { target: 'svg', macros: { '*': '\\times'} }],
     ['@vuepress/medium-zoom', {
       selector: '.theme-default-content :not(a) > img',
       options: { margin: 16 }
     }],
-    ['@vuepress/nprogress'],
-    ['@vuepress/back-to-top'],
-    ['@vuepress/pwa', { serviceWorker: true, updatePopup: true }],
-    ['@vuepress/register-components', { componentsDir: '' }],
-    ['@vuepress/google-analytics', { 'ga': 'UA-iosadfiosdi' }],
     ['@vuepress/active-header-links', {
       sidebarLinkSelector: '.sidebar-link',
       headerAnchorSelector: '.header-anchor'
     }],
-    ['@vuepress/search', {
-      searchMaxSuggestions: 10,
-      searchHotkeys: ['s', '/'],
+    ['@vuepress/search', { searchMaxSuggestions: 10, searchHotkeys: ['s', '/'] }],
+    ['vuepress-plugin-git-log', {
+        additionalArgs: '--no-merge',
+        onlyFirstAndLastCommit: true,
+    }],
+    ['vuepress-plugin-code-copy', {
+        selector: 'div[class*="language-"] pre',
+        align: 'top',
+        color: '#27b1ff',
+        backgroundTransition: true,
+        backgroundColor: '#0075b8',
+        successText: 'Copied!'
+    }],
+
+      /**
+     * ANCHOR plugn containers
+     */
+    ['vuepress-plugin-container', { type: 'right', defaultTitle: '', }],
+    ['vuepress-plugin-container', {
+        type: 'theorem',
+        before: info => `<div class="theorem"><p class="title">${info}</p>`,
+        after: '</div>',
     }],
 
     // ANCHOR blog plugin
     ['@vuepress/blog', {
       directories: [{
         id: 'post',                     // Unique ID of current classification
-        dirname: '_posts',              // Target directory
+        dirname: 'posts',               // Target directory
         layout: 'MyIndexPost',
         itemLayout: 'MyPost',
         path: '/post/',                 // Path of the `entry page` (or `list page`)
@@ -165,7 +179,7 @@ module.exports = {
         layout: 'Tags',    // Layout of the `entry page`
         scopeLayout: 'Tag' // Layout of the `scope page`
       }],
-      sitemap: { hostname: 'https://yourdomain' },
+      sitemap: { hostname: url },
       comment: {
         // service: 'vssue',    // vssue | disqus
         // owner: 'You',        // The owner's name of repository to store the issues and comments.
@@ -175,11 +189,9 @@ module.exports = {
         service: 'disqus',
         shortname: 'vuepress-plugin-blog',
       },
-      newsletter: {
-        // mailchimp
-        endpoint: "https://billyyyyy3320.us4.list-manage.com/subscribe/post?u=4905113ee00d8210c2004e038&amp;id=bd18d40138"
-      },
-      feed: { canonical_base: 'http://yoursite' },
+      // mailchimp
+      newsletter: { endpoint: "http://eepurl.com/dlqpQX" },
+      feed: { canonical_base: url },
     }],
   ],
 }

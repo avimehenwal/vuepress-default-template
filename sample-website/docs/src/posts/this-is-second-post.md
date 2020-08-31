@@ -1,3 +1,10 @@
+---
+title: second post
+tags:
+- post
+- second
+---
+
 # Second Post
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quidem esse odio illo tenetur nam ab dolorum amet obcaecati eius, iste autem pariatur consectetur officia tempore reprehenderit aspernatur inventore? Reprehenderit!

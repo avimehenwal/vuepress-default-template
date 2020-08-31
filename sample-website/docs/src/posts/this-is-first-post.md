@@ -1,3 +1,10 @@
+---
+title: first post
+tags:
+- post
+- first
+---
+
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non optio officiis explicabo blanditiis facilis quibusdam consectetur molestias illo repellat accusantium minima est vero, ex reiciendis quo ratione alias qui similique!
 
 ## Lorem ipsum, dolo

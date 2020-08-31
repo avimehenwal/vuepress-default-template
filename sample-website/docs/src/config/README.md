@@ -1,6 +1,6 @@
 ---
 # sidebar: false
-sidebar: auto
+# sidebar: auto
 ---
 
 # Config

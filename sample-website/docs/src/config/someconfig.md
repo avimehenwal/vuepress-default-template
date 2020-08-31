@@ -10,7 +10,7 @@ meta:
   content: hello
 - name: keywords
   content: super duper SEO
-navbar: false
+# navbar: false
 sidebar: auto
 ---
 
