@@ -1,0 +1,19 @@
+{
+  "name": "sample-website",
+  "version": "0.0.1",
+  "description": "sample vuepress website theme based on default theme",
+  "main": "index.js",
+  "authors": {
+    "name": "avimehenwal",
+    "email": "avi.mehanwal@gmail.com"
+  },
+  "repository": "avimehenwal/sample-website",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
