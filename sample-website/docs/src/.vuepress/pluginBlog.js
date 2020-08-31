@@ -74,3 +74,10 @@ module.exports = {
 
   feed: { canonical_base: url },
 }
+
+/**
+ * ANCHOR examples
+ * https://github.com/CadeCode/vuepress-theme-2zh/blob/master/index.js
+ * https://github.com/z3by/vuepress-tools/blob/master/.vuepress/config.js
+ * https://github.com/vuepressjs/vuepress-theme-blog/blob/master/index.js
+ */
