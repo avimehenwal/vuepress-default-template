@@ -24,12 +24,10 @@
     <div class="pagination">
       <router-link :to="first" tag="a">&laquo;</router-link>
       <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink" tag="a">&#8249;</router-link>
-      <a
-        :href="item.path"
-        v-for="(item, index) in $pagination._paginationPages"
-        :key="item.path"
+      <router-link :to="item.path" tag="a"
+        v-for="(item, index) in $pagination._paginationPages" :key="item.path"
         :class="{active: ($route.path === item.path) ? true : false }"
-      >{{ index }}</a>
+      >{{ index }}</router-link>
       <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">&#8250;</router-link>
       <router-link :to="last" tag="a">&raquo;</router-link>
     </div>
