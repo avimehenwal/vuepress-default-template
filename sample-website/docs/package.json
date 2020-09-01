@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "vuepress dev src",
     "debug": "yarn run dev --debug",
+    "new": "./scripts/new-post.sh",
     "build": "vuepress build src",
     "serve": "yarn build && http-server ../../docs"
   },

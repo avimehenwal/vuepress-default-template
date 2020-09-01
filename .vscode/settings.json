@@ -20,6 +20,7 @@
     "yarn",
     "config",
     "ghpages",
-    "plugins"
+    "plugins",
+    "template"
   ]
 }

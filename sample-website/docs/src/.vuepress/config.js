@@ -1,6 +1,9 @@
 const { description, name } = require('../../package')
+const { chainWebpack, configureWebpack } = require('./webpack.config')
 
 module.exports = {
+  chainWebpack,
+  configureWebpack,
   /**
    * ANCHOR vuepress config * https://vuepress.vuejs.org/config/
    */
@@ -23,6 +26,8 @@ module.exports = {
   cache: true,
   extraWatchFiles: [
     '.vuepress/en-navigation.js',
+    '.vuepress/pluginBlog.js',
+    '.vuepress/webpack.config.js'
   ],
   /**
    * ANCHOR add external theme
