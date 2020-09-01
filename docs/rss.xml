@@ -4,29 +4,50 @@
         <title>sample-website</title>
         <link>https://avimehenwal.github.io/vuepress-default-theme-template/</link>
         <description>sample vuepress website theme based on default theme</description>
-        <lastBuildDate>Mon, 31 Aug 2020 20:23:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2020 11:08:01 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://avimehenwal.github.io/vuepress-default-theme-template/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[one-more-post]]></title>
+            <link>https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/one-more-post/</link>
+            <guid>https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/one-more-post/</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Common pitfalls with vuepress]]></title>
+            <link>https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/vuepress-common-troubles/</link>
+            <guid>https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/vuepress-common-troubles/</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[[ ] Adding custom redirects, implementing vue-router
+[ ] Using vuex in vuepress?
+ ] [Multiple sidebars
+ ] [Add vuetiy to vuepress?
+[ ] How to load all image in a directory and add them to page?
+[ ] Use https with devServer?
+[ ] https://github.com/vuejs/vuepress/issues/402#issuecomment-388169056
+[ ] https://github.com/vuejs/vuepress/issues/826
+ ] [Load images using index numbers]]></description>
+        </item>
+        <item>
             <title><![CDATA[third post]]></title>
             <link>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/third-post/</link>
             <guid>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/third-post/</guid>
-            <pubDate>Mon, 31 Aug 2020 20:23:45 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, quas. Ipsam odio vel eius. Alias exercitationem inventore, vel quibusdam placeat ut consectetur temporibus a debitis ad laudantium iure id obcaecati.]]></description>
+            <pubDate>Tue, 01 Sep 2020 11:08:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[first post]]></title>
             <link>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-first-post/</link>
             <guid>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-first-post/</guid>
-            <pubDate>Mon, 31 Aug 2020 20:23:45 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tempora mollitia architecto aut veritatis cumque? Hic sapiente commodi, doloribus nesciunt praesentium quis eius quod, et, cupiditate voluptate vitae iusto sequi.]]></description>
+            <pubDate>Tue, 01 Sep 2020 11:08:01 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit. Non optio officiis explicabo blanditiis facilis quibusdam consectetur molestias illo repellat accusantium minima est vero, ex reiciendis quo ratione alias qui similique!]]></description>
         </item>
         <item>
             <title><![CDATA[second post]]></title>
             <link>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-second-post/</link>
             <guid>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-second-post/</guid>
-            <pubDate>Mon, 31 Aug 2020 20:23:45 GMT</pubDate>
+            <pubDate>Tue, 01 Sep 2020 11:08:01 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto magni nostrum, reiciendis excepturi rerum iste. Hic dignissimos doloremque libero ex reprehenderit aliquam incidunt! Et molestiae hic esse unde, possimus tempore.]]></description>
         </item>
     </channel>
 </rss>
