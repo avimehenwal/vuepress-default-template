@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://avimehenwal.github.io/vuepress-default-theme-template/</id>
     <title>sample-website</title>
-    <updated>2020-09-01T11:08:01.802Z</updated>
+    <updated>2020-09-01T11:27:10.464Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://avimehenwal.github.io/vuepress-default-theme-template/"/>
     <link rel="self" href="https://avimehenwal.github.io/vuepress-default-theme-template/feed.atom"/>
@@ -35,14 +35,14 @@
         <id>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/third-post/</id>
         <link href="https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/third-post/">
         </link>
-        <updated>2020-09-01T11:08:01.799Z</updated>
+        <updated>2020-09-01T11:27:10.462Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[first post]]></title>
         <id>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-first-post/</id>
         <link href="https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-first-post/">
         </link>
-        <updated>2020-09-01T11:08:01.800Z</updated>
+        <updated>2020-09-01T11:27:10.462Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit. Non optio officiis explicabo blanditiis facilis quibusdam consectetur molestias illo repellat accusantium minima est vero, ex reiciendis quo ratione alias qui similique!]]></summary>
     </entry>
     <entry>
@@ -50,7 +50,7 @@
         <id>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-second-post/</id>
         <link href="https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-second-post/">
         </link>
-        <updated>2020-09-01T11:08:01.800Z</updated>
+        <updated>2020-09-01T11:27:10.462Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto magni nostrum, reiciendis excepturi rerum iste. Hic dignissimos doloremque libero ex reprehenderit aliquam incidunt! Et molestiae hic esse unde, possimus tempore.]]></summary>
     </entry>
 </feed>

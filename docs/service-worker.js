@@ -27,35 +27,35 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "1970/01/01/third-post/index.html",
-    "revision": "f7d40f1662e20e98f34fda4ba396a185"
+    "revision": "a9a4c1dcffb4269ef4864c4d20d4306f"
   },
   {
     "url": "1970/01/01/this-is-first-post/index.html",
-    "revision": "00e76bc2e4eae43d9867cfe90f9a03fa"
+    "revision": "52c20390c23dd304fe28bc713516d654"
   },
   {
     "url": "1970/01/01/this-is-second-post/index.html",
-    "revision": "fe07e0320023e77cfb01bf4cc5605448"
+    "revision": "e6551435e21b6bbb88b1d7d51a69372d"
   },
   {
     "url": "2020/09/01/one-more-post/index.html",
-    "revision": "a53e42565f2d3c66bfc2082ee4d23483"
+    "revision": "5a7fdde71f6c1394ccc7cd660cf1323b"
   },
   {
     "url": "2020/09/01/vuepress-common-troubles/index.html",
-    "revision": "fe2cf3be409b6a2540b2ad89b0f037da"
+    "revision": "603ed66257dae1ffd72e3124de85e7a6"
   },
   {
     "url": "404.html",
-    "revision": "4ef1379aee8dc6aa668e8a7f22dc6db1"
+    "revision": "c9fb8e072b6dd8b0eed57e1da176ac9d"
   },
   {
     "url": "am.svg",
     "revision": "a131470d08ad8b5e09dc74c0d94eb478"
   },
   {
-    "url": "assets/css/0.styles.9a876f27.css",
-    "revision": "08a0bdd56464f07b5965f00e3221c66b"
+    "url": "assets/css/0.styles.6133c6c7.css",
+    "revision": "6a09c65b9b2918ab076f1004d85edcf1"
   },
   {
     "url": "assets/img/face.da2bf8d1.png",
@@ -78,8 +78,8 @@ self.__precacheManifest = [
     "revision": "f086e92e83b6fbd083a6d94d1c97a2e2"
   },
   {
-    "url": "assets/js/12.a63ebcaf.js",
-    "revision": "48e29b09a5f6b24911476019e9c9b3a6"
+    "url": "assets/js/12.d1e607e2.js",
+    "revision": "06dde8ab9669e9d4f5b9c090925ed5dd"
   },
   {
     "url": "assets/js/13.e75c4ad7.js",
@@ -170,12 +170,12 @@ self.__precacheManifest = [
     "revision": "1e7d808ec93ce6ac66b1abe4e73436e7"
   },
   {
-    "url": "assets/js/app.8348e916.js",
-    "revision": "8019fb7247bda7411ca833ee0a78879c"
+    "url": "assets/js/app.2312032d.js",
+    "revision": "34e27b4e011cf998055fbc9d5327b340"
   },
   {
-    "url": "assets/js/styles.9a876f27.js",
-    "revision": "33e6074bb67c3e07bf9fe91199935cc9"
+    "url": "assets/js/styles.6133c6c7.js",
+    "revision": "162662bfb6b6cea542eacfb4ba100502"
   },
   {
     "url": "assets/js/vuejs-paginate.f0af481b.js",
@@ -183,19 +183,19 @@ self.__precacheManifest = [
   },
   {
     "url": "config/index.html",
-    "revision": "2030f1202c3f5b2be96136803f84f19e"
+    "revision": "6292581d08311d74bd9016e74d2e8403"
   },
   {
     "url": "config/someconfig.html",
-    "revision": "3e421ce66ae1e537a29033b209cf00dd"
+    "revision": "c2771dd3c1be3bc2196d2c4e7acb78a1"
   },
   {
     "url": "guide/index.html",
-    "revision": "a157de4a19bc490c25630fc8474a25d6"
+    "revision": "dfe7f8992dc7e3dcfd47f20d70448d48"
   },
   {
     "url": "guide/using-vue.html",
-    "revision": "b99ea54b4ef27c0ea48774dd6decfa7e"
+    "revision": "dd4adf91fe5d544b229f11e573d46015"
   },
   {
     "url": "icons/pencil-rocket.svg",
@@ -203,23 +203,23 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "e315bdcb8876b5358261c0fbc0b7e24f"
+    "revision": "e3ef3beaad3d22f6a39915b94c8f65e9"
   },
   {
     "url": "post/index.html",
-    "revision": "8d10800cf0598251d9741abf106fa3f1"
+    "revision": "65bf938e8205909af8e8c223fb01b200"
   },
   {
     "url": "post/page/2/index.html",
-    "revision": "69642f35ee6b65eee70c14f7c773280b"
+    "revision": "c58e1bb22e66b9171ebe51bba913c2fc"
   },
   {
     "url": "post/page/3/index.html",
-    "revision": "4f4d3a075ae0deec645ed331d007d594"
+    "revision": "f723563d6db1b73836ced3ab2c711184"
   },
   {
     "url": "tag/index.html",
-    "revision": "4d0cc190610da796ce4456916134b4a3"
+    "revision": "883bcd3b0f77ce5c4aa6b17684026a58"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
