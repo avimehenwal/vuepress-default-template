@@ -1,0 +1,20 @@
+{
+  "name": "vuepress-theme-avi",
+  "version": "1.0.0",
+  "description": "@vuepress/theme-default ✨ perfected to its finest and greatest 😆 potential",
+  "main": "index.js",
+  "author": "avimehenwal",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "enhanceApp.js",
+    "index.js",
+    "plugins.js",
+    "pluginBlog.js",
+    "layouts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "avimehenwal/vuepress-theme-avi"
+  }
+}
