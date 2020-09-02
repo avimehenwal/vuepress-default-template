@@ -34,7 +34,7 @@ module.exports = {
    * ANCHOR theme config
    * https://vuepress.vuejs.org/theme/default-theme-config.html#default-theme-config
    */
-  theme: require.resolve('../../../../avi'),
+  theme: require.resolve('../../../../vuepress-theme-avi'),
   themeConfig: {
     logo: '/am.svg',                       // navbar logo
     lastUpdated: true,                                  // string | boolean

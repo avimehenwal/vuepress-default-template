@@ -30,7 +30,7 @@ module.exports = {
       // 'DirectoryPagination' || 'Layout',
       layout: 'IndexPost',
       sorter: (prev, next) => {
-        const dayjs = require('../avi/node_modules/dayjs');
+        const dayjs = require('dayjs');
         const prevTime = dayjs(prev.frontmatter.date);
         const nextTime = dayjs(next.frontmatter.date);
         return prevTime - nextTime > 0 ? -1 : 1;
