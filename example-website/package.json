@@ -16,6 +16,7 @@
     "debug": "yarn run dev --debug",
     "new": "./scripts/new-post.sh",
     "build": "vuepress build src",
+    "commit": "git commit --file ../GITMESSAGE.md",
     "serve": "yarn build && http-server ../docs"
   },
   "license": "MIT",

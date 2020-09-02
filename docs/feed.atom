@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://avimehenwal.github.io/vuepress-default-theme-template/</id>
+    <title></title>
+    <updated>2020-09-02T15:06:30.379Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://avimehenwal.github.io/vuepress-default-theme-template/"/>
+    <link rel="self" href="https://avimehenwal.github.io/vuepress-default-theme-template/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[one-more-post]]></title>
+        <id>https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/one-more-post/</id>
+        <link href="https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/one-more-post/">
+        </link>
+        <updated>2020-09-01T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Common pitfalls with vuepress]]></title>
+        <id>https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/vuepress-common-troubles/</id>
+        <link href="https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/vuepress-common-troubles/">
+        </link>
+        <updated>2020-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[[ ] Adding custom redirects, implementing vue-router
+[ ] Using vuex in vuepress?
+ ] [Multiple sidebars
+ ] [Add vuetiy to vuepress?
+[ ] How to load all image in a directory and add them to page?
+[ ] Use https with devServer?
+[ ] https://github.com/vuejs/vuepress/issues/402#issuecomment-388169056
+[ ] https://github.com/vuejs/vuepress/issues/826
+ ] [Load images using index numbers
+[ ] How to switch layouts?
+[ ] How to use markdown slots?
+[ ] How to add classDefs on specific pages to style them differently?
+ ] Use [Excerpt]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[third post]]></title>
+        <id>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/third-post/</id>
+        <link href="https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/third-post/">
+        </link>
+        <updated>2020-09-02T15:06:30.368Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[first post]]></title>
+        <id>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-first-post/</id>
+        <link href="https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-first-post/">
+        </link>
+        <updated>2020-09-02T15:06:30.368Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit. Non optio officiis explicabo blanditiis facilis quibusdam consectetur molestias illo repellat accusantium minima est vero, ex reiciendis quo ratione alias qui similique!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[second post]]></title>
+        <id>https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-second-post/</id>
+        <link href="https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-second-post/">
+        </link>
+        <updated>2020-09-02T15:06:30.368Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto magni nostrum, reiciendis excepturi rerum iste. Hic dignissimos doloremque libero ex reprehenderit aliquam incidunt! Et molestiae hic esse unde, possimus tempore.]]></summary>
+    </entry>
+</feed>

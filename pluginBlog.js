@@ -29,12 +29,12 @@ module.exports = {
       nextText: 'Next',
       // 'DirectoryPagination' || 'Layout',
       layout: 'IndexPost',
-      sorter: (prev, next) => {
-        const dayjs = require('./example-website/docs/src/avi/node_modules/dayjs');
-        const prevTime = dayjs(prev.frontmatter.date);
-        const nextTime = dayjs(next.frontmatter.date);
-        return prevTime - nextTime > 0 ? -1 : 1;
-      },
+      // sorter: (prev, next) => {
+      //   const dayjs = require('./example-website/docs/src/avi/node_modules/dayjs');
+      //   const prevTime = dayjs(prev.frontmatter.date);
+      //   const nextTime = dayjs(next.frontmatter.date);
+      //   return prevTime - nextTime > 0 ? -1 : 1;
+      // },
       // getPaginationPageUrl: function getPaginationPageUrl(index) {
       //   if (index === 0) {
       //     return indexPath
