@@ -1,26 +1,24 @@
 {
-  "name": "vuepress-theme-avi",
-  "version": "1.0.0",
-  "description": "@vuepress/theme-default ✨ perfected to its finest and greatest 😆 potential",
+  "name": "sample-website",
+  "version": "0.0.1",
+  "description": "example website built on vuepress-theme-avi",
   "main": "index.js",
   "authors": {
     "name": "avimehenwal",
     "email": "avi.mehanwal@gmail.com"
   },
-  "license": "MIT",
-  "private": false,
-  "files": [
-    "enhanceApp.js",
-    "index.js",
-    "plugins.js",
-    "pluginBlog.js",
-    "styles",
-    "layouts"
-  ],
   "repository": {
     "type": "git",
     "url": "avimehenwal/vuepress-theme-avi"
   },
+  "scripts": {
+    "dev": "vuepress dev src",
+    "debug": "yarn run dev --debug",
+    "new": "./scripts/new-post.sh",
+    "build": "vuepress build src",
+    "serve": "yarn build && http-server ../docs"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.5.4",
     "@vuepress/plugin-back-to-top": "^1.5.4",
@@ -31,7 +29,6 @@
     "@vuepress/plugin-pwa": "^1.5.4",
     "@vuepress/plugin-register-components": "^1.5.4",
     "@vuepress/plugin-search": "^1.5.4",
-    "dayjs": "^1.8.34",
     "http-server": "^0.12.3",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-container": "^3.0.0",
@@ -54,6 +51,7 @@
     "vuepress-plugin-social-share": "^0.3.2"
   },
   "dependencies": {
+    "dayjs": "^1.8.35",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-web-monetization": "^0.0.2"

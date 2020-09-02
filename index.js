@@ -27,6 +27,6 @@ module.exports = (themeConfig, ctx) => {
     globalLayout: '',    // set global headers/footers uses $frontmatter.layout
 
     // it will overide the parent theme configuration.
-    plugins: require('./plugins'),
+    plugins: require('./themePlugins'),
   }
 }
