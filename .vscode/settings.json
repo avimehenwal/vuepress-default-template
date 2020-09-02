@@ -14,6 +14,7 @@
     "config",
     "ghpages",
     "plugins",
-    "theme"
+    "theme",
+    "git"
   ]
 }
