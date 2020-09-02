@@ -29,19 +29,12 @@ module.exports = {
     '.vuepress/pluginBlog.js',
     '.vuepress/webpack.config.js'
   ],
-  /**
-   * ANCHOR add external theme
-   */
-  theme: undefined,
-  themeConfig: {},
-  // .vuepress/theme/index.js
-  // extend: '@vuepress/theme-default',
-
 
   /**
    * ANCHOR theme config
    * https://vuepress.vuejs.org/theme/default-theme-config.html#default-theme-config
    */
+  theme: require.resolve('./theme'),
   themeConfig: {
     logo: '/am.svg',                       // navbar logo
     lastUpdated: true,                                  // string | boolean
@@ -107,59 +100,5 @@ module.exports = {
       'markdown-it-ins',
     ]
   },
-
-
-  /**
-   * ANCHOR Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
-  plugins: [
-    ['social-share'],
-    ['reading-progress'],               // readingShow: false in frontmatter
-    ['@vuepress/nprogress'],
-    ['@vuepress/back-to-top'],
-    ['@vuepress/last-updated'],
-    ['vuepress-plugin-auto-sidebar', {}],
-    ['@vuepress/register-components', { componentsDir: '' }],
-    // See: https://github.com/francoischalifour/medium-zoom#options
-    ['@vuepress/google-analytics', { 'ga': 'UA-iosadfiosdi' }],
-    ['@vuepress/pwa', { serviceWorker: true, updatePopup: true }],
-    ['web-monetization', { 'address': '$ilp.uphold.com/DrRw6MnEEqBB' }],
-    ['vuepress-plugin-reading-time', { excludes: ['/about', '/tag/.*'] }],
-    ['vuepress-plugin-mathjax', { target: 'svg', macros: { '*': '\\times'} }],
-    ['@vuepress/medium-zoom', {
-      selector: '.theme-default-content :not(a) > img',
-      options: { margin: 16 }
-    }],
-    ['@vuepress/active-header-links', {
-      sidebarLinkSelector: '.sidebar-link',
-      headerAnchorSelector: '.header-anchor'
-    }],
-    ['@vuepress/search', { searchMaxSuggestions: 10, searchHotkeys: ['s', '/'] }],
-    ['vuepress-plugin-git-log', {
-        additionalArgs: '--no-merge',
-        onlyFirstAndLastCommit: true,
-    }],
-    ['vuepress-plugin-code-copy', {
-        selector: 'div[class*="language-"] pre',
-        align: 'top',
-        color: '#27b1ff',
-        backgroundTransition: true,
-        backgroundColor: '#0075b8',
-        successText: 'Copied!'
-    }],
-
-      /**
-     * ANCHOR plugn containers
-     */
-    ['vuepress-plugin-container', { type: 'right', defaultTitle: '', }],
-    ['vuepress-plugin-container', {
-        type: 'theorem',
-        before: info => `<div class="theorem"><p class="title">${info}</p>`,
-        after: '</div>',
-    }],
-
-    // https://github.com/drand/website/tree/master/docs/.vuepress
-    ['@vuepress/blog', require('./pluginBlog') ],
-  ],
 }
 

@@ -1,26 +1,19 @@
 {
   "conventionalCommits.scopes": [
-    "genesis",
-    "scaffold",
-    "core",
-    "cli",
-    "website",
-    "api",
-    "parser",
-    "package-manager",
+    "post",
+    "npm",
     "changelog",
     "readme",
     "component",
     "lint",
     "router",
-    "state-management",
+    "vuex",
     "localization",
     "release",
     "vscode",
-    "yarn",
     "config",
     "ghpages",
     "plugins",
-    "template"
+    "theme"
   ]
 }

@@ -8,7 +8,12 @@ vuepress default template
 
 * [ ] add svg-inline webpack config
 * [ ] [login](https://terryz.github.io/vuepress-login/#vuepress-configuration)
+* [ ] Use [Markdown slots](https://vuepress.vuejs.org/guide/markdown-slot.html#named-slots)
+* [ ] Make a theme
+* [ ] Activate/deactivate plugins from theme config
 
+Permalinks
+:   Links which are going to remain unchanged for long.
 
 ## Resources
 

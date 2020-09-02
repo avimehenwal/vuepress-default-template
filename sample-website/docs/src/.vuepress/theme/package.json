@@ -1,0 +1,9 @@
+{
+  "name": "vuepress-inherited-theme",
+  "version": "1.0.0",
+  "description": "default vuepress theme perfected to its full potential",
+  "main": "index.js",
+  "author": "avimehenwal",
+  "license": "MIT",
+  "private": false
+}
