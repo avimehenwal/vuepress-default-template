@@ -27,27 +27,27 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "1970/01/01/third-post/index.html",
-    "revision": "215c9fd4520c5dd4ef946b8c58121522"
+    "revision": "a5941807c7f46fa17b2aeca2f4ade1fc"
   },
   {
     "url": "1970/01/01/this-is-first-post/index.html",
-    "revision": "b5c2bfb44e114181f72ff3c9a7efab70"
+    "revision": "c8092cecd14f2c2fbcff6f80f2109b58"
   },
   {
     "url": "1970/01/01/this-is-second-post/index.html",
-    "revision": "2229ef0a4c3be513267938ed4c27d95f"
+    "revision": "291c99d50e6762cbab2fc18082547656"
   },
   {
     "url": "2020/09/01/one-more-post/index.html",
-    "revision": "3ce961dc5a5f05c409466377ad436fee"
+    "revision": "4025616072c9aa3ef459f803337e90a4"
   },
   {
     "url": "2020/09/01/vuepress-common-troubles/index.html",
-    "revision": "ebc7bbca7764b69b32c173d84e7e6b52"
+    "revision": "10c543444510d91435ffc222be01003f"
   },
   {
     "url": "404.html",
-    "revision": "df21f48b73e2b4e3abaf69d533c7898b"
+    "revision": "806013822dbcab5dec651554d166b00f"
   },
   {
     "url": "am.svg",
@@ -114,12 +114,12 @@ self.__precacheManifest = [
     "revision": "5edcc6aefe9107df625762611839bba8"
   },
   {
-    "url": "assets/js/21.457f607a.js",
-    "revision": "49e965491b661146b6ad11b256a26bca"
+    "url": "assets/js/21.214a9837.js",
+    "revision": "caf3bf072b391a9af65cb79512f33599"
   },
   {
-    "url": "assets/js/22.5cb65e1d.js",
-    "revision": "7f8923597914dcf6ea18f99e046f712d"
+    "url": "assets/js/22.e0f95d3c.js",
+    "revision": "3b87f923831ae81f9f867888447ba44e"
   },
   {
     "url": "assets/js/23.86d187d8.js",
@@ -166,8 +166,8 @@ self.__precacheManifest = [
     "revision": "1867bf3f8500df7328a3203da1b895a2"
   },
   {
-    "url": "assets/js/app.edce6f24.js",
-    "revision": "4f1e2ad321392ccdeafc2d010346b833"
+    "url": "assets/js/app.53c8f9c7.js",
+    "revision": "35ccad56ec00ac57211e93cee1e88745"
   },
   {
     "url": "assets/js/vuejs-paginate.857628a5.js",
@@ -175,15 +175,15 @@ self.__precacheManifest = [
   },
   {
     "url": "guide/index.html",
-    "revision": "c9c30ca2ef18bef7dfb91ebd1437e069"
+    "revision": "fbb3b7ecb15769d49117ceae8f639e2b"
   },
   {
     "url": "guide/someconfig.html",
-    "revision": "ca55a154241daea71d140f0eed6aa628"
+    "revision": "dc48340244d8b1865412a88c7eaf0127"
   },
   {
     "url": "guide/using-vue.html",
-    "revision": "4df4fdfcaccae654446d678bfccae16f"
+    "revision": "2fe96f40b5e3c8404038d48a9bc3ad0d"
   },
   {
     "url": "icons/pencil-rocket.svg",
@@ -191,23 +191,23 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a6b4cccf8aac2264ca8c8b3fa9f8155a"
+    "revision": "7c8e9dff6bf96b900e93919b7140833a"
   },
   {
     "url": "post/index.html",
-    "revision": "a8133569bab14f3a7811ffaba0eda7de"
+    "revision": "8090ce6b0db58d421df738a3b88445cf"
   },
   {
     "url": "post/page/2/index.html",
-    "revision": "2bf2035c2805de363dbe0b75cfcd6344"
+    "revision": "6fe6f71fb292c1c07d6ad38a1ef66370"
   },
   {
     "url": "post/page/3/index.html",
-    "revision": "799286ac4d6036a4666a2e35f9f00e6e"
+    "revision": "f1c69797970a023f7ad6698e7592803e"
   },
   {
     "url": "tag/index.html",
-    "revision": "3b08b7b5699c068fe24040e68f6d3a8f"
+    "revision": "87b1ca0a714e73b22fc6964757df3703"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

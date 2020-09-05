@@ -5,36 +5,37 @@
     "feed_url": "https://avimehenwal.github.io/vuepress-default-theme-template/feed.json",
     "items": [
         {
-            "id": "https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/vuepress-common-troubles/",
-            "url": "https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/vuepress-common-troubles/",
-            "title": "Common pitfalls with vuepress",
-            "date_modified": "2020-09-01T00:00:00.000Z"
-        },
-        {
             "id": "https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/one-more-post/",
             "url": "https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/one-more-post/",
             "title": "one-more-post",
             "date_modified": "2020-09-01T00:00:00.000Z"
         },
         {
+            "id": "https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/vuepress-common-troubles/",
+            "url": "https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/vuepress-common-troubles/",
+            "title": "Common pitfalls with vuepress",
+            "summary": "[ ] Adding custom redirects, implementing vue-router\n[ ] Using vuex in vuepress?\n ] [Multiple sidebars\n ] [Add vuetiy to vuepress?\n[ ] How to load all image in a directory and add them to page?\n[ ] Use https with devServer?\n[ ] https://github.com/vuejs/vuepress/issues/402#issuecomment-388169056\n[ ] https://github.com/vuejs/vuepress/issues/826\n ] [Load images using index numbers\n[ ] How to switch layouts?\n[ ] How to use markdown slots?\n[ ] How to add classDefs on specific pages to style them differently?\n ] Use [Excerpt",
+            "date_modified": "2020-09-01T00:00:00.000Z"
+        },
+        {
             "id": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/third-post/",
             "url": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/third-post/",
             "title": "third post",
-            "summary": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, quas. Ipsam odio vel eius. Alias exercitationem inventore, vel quibusdam placeat ut consectetur temporibus a debitis ad laudantium iure id obcaecati.",
-            "date_modified": "2020-09-05T13:28:48.810Z"
+            "date_modified": "2020-09-05T13:34:52.720Z"
         },
         {
             "id": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-first-post/",
             "url": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-first-post/",
             "title": "first post",
-            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tempora mollitia architecto aut veritatis cumque? Hic sapiente commodi, doloribus nesciunt praesentium quis eius quod, et, cupiditate voluptate vitae iusto sequi.",
-            "date_modified": "2020-09-05T13:28:48.810Z"
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non optio officiis explicabo blanditiis facilis quibusdam consectetur molestias illo repellat accusantium minima est vero, ex reiciendis quo ratione alias qui similique!",
+            "date_modified": "2020-09-05T13:34:52.720Z"
         },
         {
             "id": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-second-post/",
             "url": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-second-post/",
             "title": "second post",
-            "date_modified": "2020-09-05T13:28:48.810Z"
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto magni nostrum, reiciendis excepturi rerum iste. Hic dignissimos doloremque libero ex reprehenderit aliquam incidunt! Et molestiae hic esse unde, possimus tempore.",
+            "date_modified": "2020-09-05T13:34:52.720Z"
         }
     ]
 }
