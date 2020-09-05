@@ -68,9 +68,9 @@ module.exports = {
     nav: require('./en-navigation'),
 
     // ANCHOR themeConfig: search box setting
-    search: true,
-    searchMaxSuggestions: 10,
-    searchPlaceholder: 'Search...',
+    // search: true,
+    // searchMaxSuggestions: 10,
+    // searchPlaceholder: 'Search...',
 
     // ANCHOR themeConfig: sidebar settings
     sidebar: 'auto',

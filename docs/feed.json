@@ -1,0 +1,40 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "",
+    "home_page_url": "https://avimehenwal.github.io/vuepress-default-theme-template/",
+    "feed_url": "https://avimehenwal.github.io/vuepress-default-theme-template/feed.json",
+    "items": [
+        {
+            "id": "https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/vuepress-common-troubles/",
+            "url": "https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/vuepress-common-troubles/",
+            "title": "Common pitfalls with vuepress",
+            "date_modified": "2020-09-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/one-more-post/",
+            "url": "https://avimehenwal.github.io/vuepress-default-theme-template/2020/09/01/one-more-post/",
+            "title": "one-more-post",
+            "date_modified": "2020-09-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/third-post/",
+            "url": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/third-post/",
+            "title": "third post",
+            "summary": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, quas. Ipsam odio vel eius. Alias exercitationem inventore, vel quibusdam placeat ut consectetur temporibus a debitis ad laudantium iure id obcaecati.",
+            "date_modified": "2020-09-05T13:28:48.810Z"
+        },
+        {
+            "id": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-first-post/",
+            "url": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-first-post/",
+            "title": "first post",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tempora mollitia architecto aut veritatis cumque? Hic sapiente commodi, doloribus nesciunt praesentium quis eius quod, et, cupiditate voluptate vitae iusto sequi.",
+            "date_modified": "2020-09-05T13:28:48.810Z"
+        },
+        {
+            "id": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-second-post/",
+            "url": "https://avimehenwal.github.io/vuepress-default-theme-template/1970/01/01/this-is-second-post/",
+            "title": "second post",
+            "date_modified": "2020-09-05T13:28:48.810Z"
+        }
+    ]
+}
