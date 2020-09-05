@@ -15,9 +15,10 @@
     "dev": "vuepress dev src",
     "debug": "yarn run dev --debug",
     "new": "./scripts/new-post.sh",
-    "build": "vuepress build src",
+    "build": "cross-env VUEPRESS_BASE=/vuepress-theme-avi/ vuepress build src",
+    "dev:build": "vuepress build src",
     "commit": "git commit --file ../GITMESSAGE.md",
-    "serve": "yarn build && http-server ../docs"
+    "serve": "yarn dev:build && http-server ../docs"
   },
   "license": "MIT",
   "devDependencies": {
@@ -30,6 +31,7 @@
     "@vuepress/plugin-pwa": "^1.5.4",
     "@vuepress/plugin-register-components": "^1.5.4",
     "@vuepress/plugin-search": "^1.5.4",
+    "cross-env": "^7.0.2",
     "http-server": "^0.12.3",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-container": "^3.0.0",

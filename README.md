@@ -1,23 +1,64 @@
-# vuepress-default-template
+[![badge1][badge1-img]][link1]
 
-vuepress default template
+[badge1-img]: https://img.shields.io/badge/avi-mehenwal-yellow
+[link1]: https://github.com/avimehenwal
 
-[Live link](https://avimehenwal.github.io/vuepress-default-theme-template/)
+# :open_file_folder: vuepress-theme-avi
 
-### TODO items
 
-* [ ] add svg-inline webpack config
-* [ ] [login](https://terryz.github.io/vuepress-login/#vuepress-configuration)
-* [ ] Use [Markdown slots](https://vuepress.vuejs.org/guide/markdown-slot.html#named-slots)
-* [ ] Make a theme
-* [ ] Activate/deactivate plugins from theme config
-* [ ] Theme features page
-* [ ] Write tests
+## :tv: Live Link / Demo
 
-Permalinks
-:   Links which are going to remain unchanged for long.
+:link: [Live Link][url]
 
-## Resources
+## :wrench: Installation / How to run?
 
-* https://z3by.github.io/vuepress-tools/
-* https://github.com/vuepressjs/awesome-vuepress
+```bash
+yarn create vuepress theme-avi-test
+yarn add -D vuepress-theme-avi
+
+
+```
+
+## :pushpin: ToDos
+
+
+## :sparkles: Whats Inside?
+
+
+### :beetle: [Open Issues][issue]
+
+
+### :date: [Changelog][changelog]
+
+
+## :paperclip: Other Information
+
+
+## :herb: License
+
+MIT
+
+## :cyclone: References / Resources
+
+
+[url]: liveLink
+[issue]: issue
+[changelog]: ./CHANGELOG.md
+
+---
+
+
+#### :v: Get in touch with me
+
+> I am looking for Jobs ... :sunglasses:
+
+* [Github](https://github.com/avimehenwal/)
+* [My Website](https://avimehenwal.in)
+* [My Blog v2](https://avimehenwal2.netlify.app/)
+* [Twitter Handle](https://twitter.com/avimehenwal)
+* [LinkedIn](https://in.linkedin.com/in/avimehenwal)
+* [Stackoverflow](https://stackoverflow.com/users/1915935/avi-mehenwal)
+
+<a href="https://www.buymeacoffee.com/F1j07cV" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+
+ Spread Love :hearts: and not :no_entry_sign: hatred   [![Twitter Follow](https://img.shields.io/twitter/follow/avimehenwal.svg?style=social)](https://twitter.com/avimehenwal)

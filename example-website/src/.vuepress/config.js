@@ -1,14 +1,25 @@
 const { description, name } = require.resolve('../../package')
 const { chainWebpack, configureWebpack } = require.resolve('./webpack.config')
 
+// global node package
+if (process.env.VUEPRESS_BASE) {
+  console.log('VUEPRESS_BASE = ' + process.env.VUEPRESS_BASE);
+} else {
+  console.log('VUEPRESS_BASE = /');
+}
+
 /**
  * ANCHOR vuepress: website config
  * https://vuepress.vuejs.org/config/
+ *
+ * FIXME Error: Cannot find module '/manifest/client.json'
+ * https://github.com/vuejs/vuepress/issues/2194
  */
 module.exports = {
+  // https://github.com/vuejs/vuepress/issues/560#issuecomment-395775721
+  base: process.env.VUEPRESS_BASE || '/',
   chainWebpack,
   configureWebpack,
-  base: '/vuepress-theme-avi/',            // gh-pages
   title: name,
   description: description,
   // TODO: could add SEO tags and modularize
