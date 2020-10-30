@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-  base: '/vuepress-theme-avi/',
+  base: process.env.VUEPRESS_BASE || '/',
   dest: '../docs',                          // @root
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -28,6 +28,7 @@ module.exports = {
    *
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
+  theme: 'vuepress-theme-avi',
   themeConfig: {
     repo: '',
     editLinks: false,
